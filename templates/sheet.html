@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Part</title>
+
+        <link rel="stylesheet" href="{{url_for('static', filename='css/common.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/part.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/font-awesome.css')}}">
+        <script src="{{url_for('static', filename='js/jquery-2.2.3.min.js')}}"></script>
+        <script>
+
+        </script>
+
+    </head>
+    <body>
+    <div class="header">header</div>
+    <div class="main">
+        <div class="attributes_wrapper">
+            <div class="attribute_label"><span>COMBAT</span></div>
+            <div class="primary_attribute"><span>45</span><span class="primary_attribute_percent">%</span></div>
+            <div class="bonus_advances">
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+            </div>
+            <div class="bonus_attribute">
+                5
+            </div>
+
+            <table class="skill_table">
+                <tr>
+                    <th>SKILL</th>
+                    <th>RANK</th>
+                    <th>FOCUS</th>
+                </tr>
+                <tr>
+                    <td>Martial Melee*</td>
+                    <td><input type="checkbox" /><input type="checkbox" /><input type="checkbox" /></td>
+                    <td>Maces</td>
+                </tr>
+                <tr>
+                    <td>Martial Ranged*</td>
+                    <td><input type="checkbox" /><input type="checkbox" /><input type="checkbox" /></td>
+                    <td>Maces</td>
+                </tr>
+                <tr>
+                    <td>Simple Melee</td>
+                    <td><input type="checkbox" /><input type="checkbox" /><input type="checkbox" /></td>
+                    <td>Maces</td>
+                </tr>
+                <tr>
+                    <td>Simple Ranged</td>
+                    <td><input type="checkbox" /><input type="checkbox" /><input type="checkbox" /></td>
+                    <td>Maces</td>
+                </tr>
+
+
+            </table>
+
+
+        </div>
+    </div>
+
+    </body>
+</html>
